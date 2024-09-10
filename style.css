@@ -1,0 +1,41 @@
+body {
+    background-color: hsl(191, 100%, 50%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    font-size: 2rem;
+    
+}
+
+p {
+    font-size: 2rem;
+    border-left: 20px solid hsl(135, 97%, 49%);
+    border-bottom: 20px dotted hsl(0, 100%, 50%); /* pontilhado */
+    border-top: 20px dashed yellow; /* tracejado */
+    border-right: 20px solid blue;
+}
+
+h2 {
+    background-color: hsl(291, 98%, 48%);
+    margin: 0% auto;
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+}
+
+.box1 {
+    box-sizing: content-box;
+    width: 300px;
+    height: 100px;
+    padding: 30px;
+    border: 10px solid blue;
+}
+
+.box2 {
+    box-sizing: border-box;
+    width: 380px;
+    height: 100px;
+    padding: 30px;
+    border: 10px solid red;
+}
